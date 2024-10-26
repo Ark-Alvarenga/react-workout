@@ -118,8 +118,8 @@ const Generator = (props) => {
                   }}
                   key={muscleGroupIndex}
                   className={
-                    "hover:text-blue-400 duration-200 px-4" +
-                    (muscles.includes(muscleGroup) ? " text-red-600" : " ")
+                    "hover:text-blue-400 duration-200 px-4 " +
+                    (muscles.includes(muscleGroup) ? "text-red-600" : " ")
                   }
                 >
                   <p className="uppercase">
